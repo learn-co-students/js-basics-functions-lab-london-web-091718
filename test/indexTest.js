@@ -41,6 +41,10 @@ describe('index.js', function() {
     it('returns distance when destination is below distance', function() {
       expect(distanceTravelledInFeet(34, 28)).to.equal(1584);
     });
+
+    it('returns the expected distance for other test', function() {
+      expect(distanceTravelledInFeet(34, 32)).to.equal(528);
+    });
   });
 
   describe('calculatesFarePrice(start, destination)', function() {
