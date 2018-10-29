@@ -27,5 +27,8 @@
   "homepage": "https://github.com/learn-co-curriculum/js-basics-functions-lab#readme",
   "devDependencies": {
     "learn-browser": "^0.1.13"
+  },
+  "dependencies": {
+    "grunt": "^1.0.3"
   }
 }
